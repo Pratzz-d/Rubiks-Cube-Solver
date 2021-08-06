@@ -1404,11 +1404,9 @@ public class Cube {
 
     public static void main(String[] args)
     {
-        Cube cube = new Cube();
+        	Cube cube = new Cube();
 		String allMoves = new String("");
-        //String scramble = "";
-		//System.out.println("Scramble: " + scramble + "\n");
-		//cube.scramble(scramble);
+        
 		String sunflower = cube.makeSunflower();
 		allMoves = allMoves.concat(cube.optimizeMoves(sunflower));
 		
